@@ -4,10 +4,12 @@
 
 #include <string>
 
-class Basic_account{
+typedef int sint32_t;
 
-    private:
-        int balance;                        // Current balance of money
+class Basic_account
+{
+    protected:
+        sint32_t balance;                   // Current balance of money
         std::string IBAN;                   // International Bank account number
 
     public:
@@ -15,5 +17,6 @@ class Basic_account{
         int withdraw(float amount);         // Withdraw monney from the account's balance
         int deposit(float amount);          // Deposit money to the account's balance
 
-        
+        ~Basic_account();                   // Destructor
+
 };

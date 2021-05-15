@@ -2,7 +2,7 @@
  *  This code is owned by Florian Meier
  */
 
-typedef char uint8_t;
+typedef unsigned char uint8_t;
 
 class PIN_generator
 {
