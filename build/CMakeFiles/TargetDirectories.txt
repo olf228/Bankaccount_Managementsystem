@@ -1,2 +1,0 @@
-D:/Daten/Software/Softwareentwicklung/Bankaccount_Managementsystem/build/CMakeFiles/edit_cache.dir
-D:/Daten/Software/Softwareentwicklung/Bankaccount_Managementsystem/build/CMakeFiles/rebuild_cache.dir
